@@ -6,18 +6,31 @@ Quickly take screenshots and upload them to imgBB. You can set simple text water
 # 安装依赖库
 ```bash
 pip install pillow keyboard requests pyperclip
+
 ```
-
-
 # 安装打包程序
 ```bash
 pip install pyinstaller
 ```
-
 # 打包程序
 ```bash
 pyinstaller --onefile --windowed --name ImgbbScreenshotUploader screenshot_upload.py
 ```
+# 获取API
+
+1. Users need to apply for an account on imgbb.com.
+2. Apply for API
+3. Simply fill in the API information into the software
+4. The program is completely written with Grok
+
+1. 用户需要到imgbb.com上申请一个账户。
+2. 申请API
+3. 将API信息填入软件中即可
+4. 程序完全是有grok编写的
+
+
 # 下载已安装好的程序
+
+配置文件在config文件中
 
 ![demo](https://github.com/user-attachments/assets/086220cd-7e5f-491e-99f4-18bcb65c57ed)
